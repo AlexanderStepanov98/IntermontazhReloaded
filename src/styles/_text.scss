@@ -1,35 +1,16 @@
-$test-color: #333;
-
-@font-face {
-  font-family: 'UniSansHeavy';
-  src: url('../fonts/UniSansHeavy.otf') format('otf');
-}
-
-@font-face {
-  font-family: 'DockerTwo';
-  src: url('../fonts/DockerTwo.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'DockerThree';
-  src: url('../fonts/DockerThree.woff') format('woff');
-}
-
-body {
-  color: $test-color;
-}
+$text-color: #333;
 
 h1 {
-  color: $test-color;
-  font-family: 'UniSansHeavy';
+  color: $text-color;
+  font-family: 'DockerOne';
 }
 
 h2 {
-  color: $test-color;
+  color: $text-color;
   font-family: 'DockerTwo';
 }
 
 h3 {
-  color: $test-color;
+  color: $text-color;
   font-family: 'DockerThree';
 }
