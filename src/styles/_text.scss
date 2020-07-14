@@ -1,16 +1,38 @@
-$text-color: #333;
+/* background: url(../images/header-background.png); не работает  */
 
-h1 {
-  color: $text-color;
-  font-family: 'DockerOne';
+.body {
+
 }
 
-h2 {
-  color: $text-color;
-  font-family: 'DockerTwo';
+.upper-menu {
+  flex: row;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
 }
 
-h3 {
-  color: $text-color;
-  font-family: 'DockerThree';
+.upper-menu__link {
+
+}
+
+.marketing-body {
+  max-width: 200px;
+}
+
+.marketing-body__description {
+
+}
+
+.title {
+  font-size: 96px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title__main {
+  font-family: "UniSans";
+  font-weight: 900;
+}
+
+.title__secondary {
+  font-family: "UniSans";
+  font-weight: 300;
 }
