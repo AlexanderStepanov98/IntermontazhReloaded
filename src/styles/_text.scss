@@ -1,38 +1,68 @@
 /* background: url(../images/header-background.png); не работает  */
 
 .body {
-
+  position: relative;
+  margin-left: 240px;
+  min-height: 100vh;
 }
 
 .upper-menu {
-  flex: row;
+  flex-direction: row;
   justify-content: space-between;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.feedback {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 .upper-menu__link {
 
 }
 
-.marketing-body {
-  max-width: 200px;
+.marketing {
+  max-width: 300px;
+  /* max-height: 140px; */
+  position: relative;
 }
 
-.marketing-body__description {
+.marketing__description {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 230px;
+  position: absolute;
+  /* сделать тоньше */
+}
 
+.marketing__line {
+  height: 90px;
+  width: 4px;
+  background-color: #E9A907;
+  margin-top: 220px;
+  position: absolute;
 }
 
 .title {
   font-size: 96px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Russo One', sans-serif;
 }
 
 .title__main {
-  font-family: "UniSans";
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .title__secondary {
-  font-family: "UniSans";
-  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: flex-end;
+
 }
+
+/* @font-face { пример подключения шрифта с папки (важен формат!)
+    font-family: "UniSans";
+    src: url("../fonts/UniSans/UniSansThin.otf") format("opentype");
+    font-style: normal;
+    font-weight: 300;  */
