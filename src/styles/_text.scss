@@ -1,0 +1,38 @@
+/* background: url(../images/header-background.png); не работает  */
+
+.body {
+
+}
+
+.upper-menu {
+  flex: row;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+}
+
+.upper-menu__link {
+
+}
+
+.marketing-body {
+  max-width: 200px;
+}
+
+.marketing-body__description {
+
+}
+
+.title {
+  font-size: 96px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title__main {
+  font-family: "UniSans";
+  font-weight: 900;
+}
+
+.title__secondary {
+  font-family: "UniSans";
+  font-weight: 300;
+}
