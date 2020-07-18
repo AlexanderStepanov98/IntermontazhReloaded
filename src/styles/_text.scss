@@ -1,68 +1,39 @@
-/* background: url(../images/header-background.png); не работает  */
-
-.body {
-  position: relative;
-  margin-left: 240px;
-  min-height: 100vh;
+.text_type_title {
+  font-family: "RalewayMedium";
 }
 
-.upper-menu {
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: 'Raleway', sans-serif;
+.text_type_description {
+  font-family: "RalewayLight";
 }
 
-.feedback {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+.text_size_xs {
+  font-size: 14px;
 }
 
-.upper-menu__link {
-
+.text_size_sm {
+  font-size: 18px;
 }
 
-.marketing {
-  max-width: 300px;
-  /* max-height: 140px; */
-  position: relative;
+.text_size_md {
+  font-size: 26px;
 }
 
-.marketing__description {
-  font-family: 'Raleway', sans-serif;
-  margin-top: 230px;
-  position: absolute;
-  /* сделать тоньше */
+.text_size_lg {
+  font-size: 34px;
 }
 
-.marketing__line {
-  height: 90px;
-  width: 4px;
-  background-color: #E9A907;
-  margin-top: 220px;
-  position: absolute;
+.text_size_xl {
+  font-size: 42px;
 }
 
-.title {
-  font-size: 96px;
-  font-family: 'Russo One', sans-serif;
+.text_size_xxl {
+  font-size: 50px;
 }
 
-.title__main {
-  font-weight: bold;
+.text_size_xxxl {
+  font-size: 70px;
 }
 
-.title__secondary {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 38px;
-  display: flex;
-  align-items: flex-end;
-
+.text_spacing_bottom_md {
+  padding-bottom: 20px;
 }
-
-/* @font-face { пример подключения шрифта с папки (важен формат!)
-    font-family: "UniSans";
-    src: url("../fonts/UniSans/UniSansThin.otf") format("opentype");
-    font-style: normal;
-    font-weight: 300;  */

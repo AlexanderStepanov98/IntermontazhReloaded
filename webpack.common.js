@@ -12,6 +12,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
+      {
         test: /\.s?css$/,
         use: [
           "style-loader", // 4. Inject styles into DOM if link does not work
