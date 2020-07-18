@@ -1,0 +1,57 @@
+// TODO: Do something about naming
+
+header {
+  background-image: url("../images/alain-pham-P_qvsF7Yodw-unsplash.jpg");
+  background-color: rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  margin: 0 auto;
+  color: white;
+}
+
+.upper-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.upper-menu__link {
+  flex: 1;
+  text-decoration: none;
+  color: white;
+}
+
+.marketing {
+  max-width: 300px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.marketing__description {
+  margin: 5px 0 0 30px;
+  width: 230px;
+}
+
+.marketing__line {
+  height: 90px;
+  width: 4px;
+  background-color: #E9A907;
+}
+
+.title {
+  margin: 50px 0;
+}
+
+.title__secondary {
+  line-height: 38px;
+  color: #E9A907;
+}
