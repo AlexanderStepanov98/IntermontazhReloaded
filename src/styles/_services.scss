@@ -1,0 +1,75 @@
+.option {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.check {
+    padding-left: 4em;
+    padding-top: 1em;
+    // padding-bottom: 1em;
+    font-family: "RalewayLight";
+    font-size: 18px;
+}
+
+// Hide standart checkbox
+.check__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.check__box {
+    position: absolute;
+    margin-left: -3.7em;
+    margin-top: -0.7em;
+    width: 37px;
+    height: 37px;
+    background-image: url(../images/off.svg);
+    background-repeat: no-repeat;
+}
+
+// Conditions
+
+// Checked
+.check__input:checked + .check__box {
+    background-image: url(../images/on.svg);
+}
+
+// // Focused
+// .check__input:focus + .check__box {
+//     background-image: url(../images/off-focused.svg);
+// }
+
+// // Focused & Checked
+// .check__input:checked:focus + .check__box {
+//     background-image: url(../images/on-focused.svg);
+// }
+
+// Disabled
+.check__input:disabled + .check__box {
+    background-image: url(../images/off-disabled.svg);
+}
+
+// Disabled & Checked
+.check__input:checked:disabled + .check__box {
+    background-image: url(../images/on-disabled.svg);
+}
+
+.service-type {
+    width: 950px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.service-type:hover {
+    background-color: #EEEDED; 
+}
+
+.service-type:checked {
+    background-color: #EEEDED;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}

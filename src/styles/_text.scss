@@ -1,9 +1,14 @@
 .text_type_title {
-  font-family: "RalewayMedium";
+  font-family: "RussoOne";
+  font-size: 800;
 }
 
 .text_type_description {
   font-family: "RalewayLight";
+}
+
+.text_type_headers {
+  font-family: "MontserratBlack";
 }
 
 .text_size_xs {
@@ -36,4 +41,28 @@
 
 .text_spacing_bottom_md {
   padding-bottom: 20px;
+}
+
+.text_spacing_bottom_l {
+  padding-bottom: 50px;
+}
+
+.text_spacing_bottom_xl {
+  padding-bottom: 80px;
+}
+
+.text_position_left {
+  text-align: left;
+}
+
+.text_position_center {
+  text-align: center;
+}
+
+.text_position_right {
+  text-align: right;
+}
+
+.content_title {
+  font-family: "RussoOne";
 }
